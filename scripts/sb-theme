@@ -8,7 +8,7 @@ display() {
         case "$(basename "$0")" in
             sb-battery) color="#00FF00" ;;
             sb-date) color="#0000FF" ;;
-            *) color=15 ;;
+            *) color="#FF0000" ;;
         esac
     fi
 
