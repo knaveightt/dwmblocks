@@ -4,8 +4,8 @@
 #include "util.h"
 
 Block blocks[] = {
-    {"sb-battery", 5,    1 },
-    {"sb-date",    1,    2 },
+    {"spade-bar-batt",    5,    1 },
+    {"spade-bar-date",    1,    2 },
 };
 
 const unsigned short blockCount = LEN(blocks);

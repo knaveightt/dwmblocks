@@ -6,9 +6,9 @@ display() {
         color="$2"
     else
         case "$(basename "$0")" in
-            sb-battery) color="#00FF00" ;;
-            sb-date) color="#0000FF" ;;
-            *) color="#FF0000" ;;
+            spade-bar-batt) color="#65A399" ;;
+            spade-bar-date) color="#EA9847" ;;
+            *) color="#FFFFFF" ;;
         esac
     fi
 

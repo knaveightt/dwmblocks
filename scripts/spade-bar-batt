@@ -13,7 +13,7 @@ case "$BLOCK_BUTTON" in
     6) "$TERMINAL" -e "$EDITOR" "$0" ;;
 esac
 
-. sb-theme
+. spade-bar
 
 # Loop through all attached batteries and format the info
 for battery in /sys/class/power_supply/BAT?*; do
