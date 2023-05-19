@@ -4,6 +4,6 @@ My build of dwmblocks-async by [Utkarsh Verma](https://github.com/UtkarshVerma/d
 
 
 ## dwmblocks scripts provided
- - sb-date
- - sb-battery
- - sb-theme
+ - spade-bar-date
+ - spade-bar-batt
+ - spade-bar
