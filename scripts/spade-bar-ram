@@ -8,4 +8,4 @@ esac
 . spade-bar
 
 memory=$( free -m | grep 'Mem' | awk '{print $3}' )
-display "$memory"
+display " ${memory}mb"

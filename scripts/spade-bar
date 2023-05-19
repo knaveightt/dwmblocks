@@ -13,12 +13,5 @@ display() {
         esac
     fi
 
-    case "$STATUSBAR" in
-        "dwmblocks")
-            echo "^c$color^$1"
-            ;;
-        *)
-            echo "$1"
-            ;;
-    esac
+    echo "^c$color^$1"
 }
