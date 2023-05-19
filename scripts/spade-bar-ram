@@ -1,0 +1,11 @@
+#!/bin/sh
+# Prints the current ram usage, or launches htop on click
+
+case "$BLOCK_BUTTON" in
+    1) "st -z 14 -e htop"
+esac
+
+. spade-bar
+
+memory=$( free -m | grep 'Mem' | awk '{print $3}' )
+display "$memory"

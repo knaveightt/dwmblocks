@@ -8,6 +8,7 @@ display() {
         case "$(basename "$0")" in
             spade-bar-batt) color="#65A399" ;;
             spade-bar-date) color="#EA9847" ;;
+	    spade-bar-ram)  color="#8AC6F2" ;;
             *) color="#FFFFFF" ;;
         esac
     fi
